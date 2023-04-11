@@ -10,7 +10,7 @@ let currentImageIndex = 0;
 
 function handlePreviousClick() {
     console.log('variable')
-    if(currentImageIndex === 0)
+    if(currentImageIndex === 0) return;
     currentImageIndex--;
     changeImageSrc(imgUrl[currentImageIndex])
 }
