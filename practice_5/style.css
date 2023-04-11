@@ -1,0 +1,202 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    color: black;
+    font-family: 'Times New Roman', serif ;
+}
+.flex-center {
+    margin: 6px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+
+button {
+    background-color: #4CAF50; /* колір фону */
+    border: none; /* відсутність рамки */
+    color: white; /* колір тексту */
+    padding: 12px 24px; /* відступи всередині кнопки */
+    text-align: center; /* вирівнювання тексту */
+    text-decoration: none; /* відсутність підкреслення тексту */
+    display: inline-block; /* властивість для відображення кнопки як блоку */
+    font-size: 16px; /* розмір шрифту */
+    margin: 4px 2px; /* зовнішні відступи */
+    cursor: pointer; /* зміна форми курсора при наведенні на кнопку */
+}
+body {
+    padding: 10px;
+    background-color: #f9f9f9;
+}
+
+.pad-container {
+    margin: auto;
+    width: 960px;
+    padding: 28px;
+    border-radius: 6px;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.panorama-container img {
+    width: 960px;
+    height: 320px;
+    object-fit: cover;
+}
+
+
+.header-caption {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 38px;
+    white-space: nowrap;
+}
+
+.nav-main {
+    flex-grow: 1;
+}
+
+.pad-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-main ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-main li {
+    margin: 0;
+}
+
+.nav-main a {
+    display: block;
+    padding: 10px;
+    font-size: 18px;
+    text-decoration: none;
+    color: #333;
+}
+
+.nav-main a:hover {
+    background-color: #333;
+    color: #fff;
+}
+
+.nav-main a.active {
+    background-color: #333;
+    color: #fff;
+}
+
+h2 {
+    text-align: center;
+    font-size: 26px;
+    margin: 12px 0;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+th, td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+caption {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 26px;
+    margin: 12px 0;
+}
+
+main p {
+    margin: 12px 0;
+    font-size: 18px;
+    text-align: justify;
+}
+
+table, td, th {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 4px;
+}
+
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 45px;
+}
+
+.gallery img {
+    display: block;
+    width: 270px;
+    height: 180px;
+    padding: 10px;
+    object-fit: cover;
+    outline: 1px solid #D7D7D7;
+}
+
+.gallery div {
+    width: 270px;
+    margin-top: 10px;
+    word-wrap: break-word;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    line-height: 20px;
+    margin: 40px -28px -28px -28px;
+    padding: 28px;
+    font-size: 14px;
+    background-color: #292929;;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.about-container {
+    width: 480px;
+}
+
+.sources-container {
+    width: 360px;
+}
+
+footer * {
+    text-align: center;
+    color: lightgray;
+}
+
+footer a:hover {
+    color: rgb(225, 0, 0);
+}

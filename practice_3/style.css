@@ -1,0 +1,20 @@
+header {
+    display: inline-block;
+    width: 100%;
+}
+
+nav {
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+main {
+    display: inline-block;
+    width: 75%;
+}
+
+footer {
+    display: inline-block;
+    width: 100%;
+}
