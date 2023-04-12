@@ -16,16 +16,16 @@
 
 
 button {
-    background-color: #4CAF50; /* колір фону */
-    border: none; /* відсутність рамки */
-    color: white; /* колір тексту */
-    padding: 12px 24px; /* відступи всередині кнопки */
-    text-align: center; /* вирівнювання тексту */
-    text-decoration: none; /* відсутність підкреслення тексту */
-    display: inline-block; /* властивість для відображення кнопки як блоку */
-    font-size: 16px; /* розмір шрифту */
-    margin: 4px 2px; /* зовнішні відступи */
-    cursor: pointer; /* зміна форми курсора при наведенні на кнопку */
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
 }
 body {
     padding: 10px;
